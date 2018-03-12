@@ -4,7 +4,8 @@
   "description": "A Wordpress theme that began development in Spring of 2018.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "export": "node ./npm_scripts/export"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,11 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "chokidar": "^2.0.2",
+    "ncp": "^2.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "webpack": "^4.1.1"
+    "webpack": "^4.1.1",
+    "yargs": "^11.0.0"
   }
 }
